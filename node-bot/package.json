@@ -1,0 +1,18 @@
+{
+  "name": "discord-avatar-decorator-bot",
+  "version": "1.0.0",
+  "description": "Bot do Discord para decorar avatares com overlays e efeitos (Node.js)",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.51",
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5"
+  }
+}
